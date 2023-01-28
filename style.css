@@ -60,7 +60,11 @@ small{
         font-size: 0.5rem;
     }
 }
-.warning{
-    color: rgb(243, 100, 100);
+input.warning{
+    
     background-color: rgb(243, 100, 100) ;
+}
+
+span.warning{
+    color: rgb(243, 100, 100);
 }
