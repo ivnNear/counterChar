@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(56, 56, 56);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(241, 168, 241);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: rgb(114, 114, 114);
+    font-size: 2rem;
+    
+    
+}
+.container{
+    width: 60rem;
+    background-color: rgb(243, 214, 243);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 1.5rem;
+}
+
+label{
+    display: block;
+    color: #fff;
+    
+}
+input{
+    width: 70%;
+    padding: 0.5rem;
+    font-size: 1.25rem;
+    outline: none;
+    border: 0;
+    border-radius: 7px;
+    color: rgb(104, 102, 102);
+    box-sizing: border-box;
+}
+input:focus{
+    background-color: rgb(248, 236, 248);
+}
+span{
+    font-weight: bold;
+}
+#remain-char{
+    font-weight: bold;
+    margin-left: 1rem;
+}
+small{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.750rem;
+    display: block;
+}
+@media(max-width:550px){
+    input{
+        width: 95%;
+    }
+    .container{
+        padding: 0.5rem;
+    }
+    small{
+        font-size: 0.5rem;
+    }
+}
+.warning{
+    color: rgb(243, 100, 100);
+    background-color: rgb(243, 100, 100) ;
+}
