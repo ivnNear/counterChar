@@ -11,12 +11,19 @@ input.addEventListener('input', (e)=> {
     let remainingChar = maxLength - length;
     span.textContent = remainingChar;
 
-    if(remainingChar <= 10){
+    if(remainingChar === 0 ){
+        input.classList.add('error');
+        span.classList.add('error')
+    }
+    else if(remainingChar <= 10){
         input.classList.add('warning');
         span.classList.add('warning')
+        input.classList.remove('error');
+        span.classList.remove('error')
     }
     else{
         input.classList.remove('warning');
         span.classList.remove('warning')
+        
     }
 })
